@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iFood Meals</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="reset.css"> 
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class= "cabecalho-logo" src="logoifood.png" alt="logoifood">
+        <nav> 
+            <a class="cabecalho-ifood" href="https://www.ifood.com.br/">iFood</a>
+            <a class="cabecalho-institucional" href="https://institucional.ifood.com.br/?utm_source=site_ifood">Institucional</a>
+        </nav>
+    </header>
+
+    <main class="content">
+        <div class="title">
+            <div id="title-content"></div>  
+        </div> 
+        <div class="quadro-horizontal">
+                <div class="img">
+                    <div id="container-img"></div>
+                </div>          
+                <div class="ingredientes">
+                    <h2>Ingredientes</h2>
+                    <div id="container-text">
+                        <ol>
+                            
+                        </ol>
+                    </div>
+                </div>
+        </div>
+            <div class="quadro-vertical"></div>
+            <div class="preparation">
+                <h2>Modo de Preparo</h2>
+                <div id="text"></div>
+            </div>
+        <div id="root"></div>
+        <script src="./main.js"></script>
+    </main>    
+    <footer>
+        <input type="button" value="Next Meal" onClick="window.location.reload()" class="rodape">
+    </footer>
+</body>
+
+
+</html> 

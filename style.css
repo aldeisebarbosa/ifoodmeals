@@ -1,0 +1,160 @@
+/* Estilizando  o menu de receitas*/
+
+.cabecalho{
+    margin-top: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    width: 90%;
+    height: 200px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'SulSans',Helvetica,sans-serif;   
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+
+.cabecalho-ifood{
+    color: #EA1D2C;
+    font-family: 'SulSans',Helvetica,sans-serif;  
+    text-decoration: none;
+    width: 25%;
+    font-weight: bold;
+    
+}
+
+.cabecalho-institucional{
+    color: #EA1D2C;
+    font-family: 'SulSans',Helvetica,sans-serif;  
+    text-decoration: none;
+    width: 25%;
+    font-weight: bold;
+}
+
+
+.content{
+    margin-top: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+    
+
+}
+
+.title{
+    display: flex;
+    margin-top: 1%;
+    font-size: 40px;
+    font-family: 'SulSans',Helvetica,sans-serif;  
+    font-weight: bold;
+    width: 100%;
+    white-space: nowrap;
+    justify-content: center;
+    margin-left: ;
+    
+}
+
+.quadro-horizontal{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+
+
+}
+
+.img{
+    /*editar a altura e largura da imagem*/
+}
+
+/* #container-img{
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+} */
+
+.ingredientes{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    width: 30%;
+    font-family:'SulSans',Helvetica,sans-serif;
+}
+
+.ingredientes h2{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-family:'SulSans',Helvetica,sans-serif; 
+    font-weight: bold;
+}
+
+#container-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 18px;
+    font-family:'SulSans',Helvetica,sans-serif; 
+    font-weight:normal;
+    margin-top: 5%;
+    margin-left: 25%;
+}
+
+.quadro-vertical{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    width: 30%;
+    font-family:'SulSans',Helvetica,sans-serif;
+}
+
+.preparation h2{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-family:'SulSans',Helvetica,sans-serif; 
+    font-weight: bold;
+    margin-top: 3%;
+}
+
+#text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 18px;
+    font-family:'SulSans',Helvetica,sans-serif; 
+    font-weight:normal;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: justify;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+	width: 20%;
+    height: 20%;
+    margin: 10% auto;
+    margin-top: 1%;
+	background: rgb(199, 17, 17);
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	font-size: 25px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+  
+}
+
+.rodape:hover{
+	background: rgb(62, 163, 15);
+}
